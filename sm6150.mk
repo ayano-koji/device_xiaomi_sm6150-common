@@ -29,7 +29,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Inherit from Dolby
-$(call inherit-product-if-exists, vendor/sony/dolby/sonydolby.mk)
+$(call inherit-product-if-exists, vendor/motorola/dolby/motodolby.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
